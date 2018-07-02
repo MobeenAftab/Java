@@ -1,4 +1,6 @@
-
+/*
+ * Flying behaviour implementation for ducks that dont fly
+ */
 public class FlyNoWay implements FlyBehaviour {
 	
 	public void fly() {

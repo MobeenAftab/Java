@@ -18,6 +18,11 @@ public abstract class Duck {
 	
 	public abstract void display();
 	
+	
+	public void swim() {
+		System.out.println("All ducks float, even decoys!");
+	}
+	
 	/*
 	 * Each Duck has a reference to something that implements the Behaviour Interfaces
 	 * Duck object delegates that behaviour to the object referenced by Interface
@@ -31,7 +36,16 @@ public abstract class Duck {
 		quackBehaviour.quack();
 	}
 	
-	public void swim() {
-		System.out.println("All ducks float, even decoys!");
+	/*
+	 * Setter methods to change behaviour dynamically on the fly
+	 */
+	
+	public void setFlyBehaviour(FlyBehaviour fb) {
+		flyBehaviour = fb;
 	}
+	
+	public void setQuackBehaviour(QuackBehaviour qb) {
+		quackBehaviour = qb;
+	}
+
 }
