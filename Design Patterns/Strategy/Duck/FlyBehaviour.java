@@ -1,3 +1,4 @@
+package Duck;
 /*
  * Interface that all flying behaviour inherit
  */

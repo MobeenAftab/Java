@@ -1,3 +1,4 @@
+package Duck;
 /*
  * Quacking behaviour implementation for ducks that do not quack
  */

@@ -1,3 +1,4 @@
+package Duck;
 /*
  * Interface for quack behaviour class implementation
  */

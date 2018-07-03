@@ -1,3 +1,4 @@
+package Duck;
 /*
  * New type of duck extends and inherits from Duck superclass
  */

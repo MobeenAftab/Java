@@ -1,3 +1,4 @@
+package Duck;
 /*
  * Main driver class for Duck class
  * 

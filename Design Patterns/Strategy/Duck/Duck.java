@@ -1,3 +1,4 @@
+package Duck;
 /* 
  * Duck superclass that other duck type classes will
  * extend from. Behaviour Interface

@@ -1,3 +1,4 @@
+package Duck;
 /*
  * Flying behaviour implementation for ducks that do fly
  */
