@@ -1,3 +1,4 @@
+package javaObservable;
 /*
  * Subject interface
  */

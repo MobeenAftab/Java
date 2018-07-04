@@ -1,3 +1,4 @@
+package javaObservable;
 /*
  * Observer Interface all weather components (observers) implement
  * Common interface for all subject dependencies to communicate

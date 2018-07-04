@@ -1,5 +1,8 @@
+package nativeObservable;
+
 /*
  * Main driving class
+ * This example implements our own Observable interface and classes to push notifications
  */
 public class WeatherStation {
 

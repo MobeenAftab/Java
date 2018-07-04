@@ -1,5 +1,6 @@
+package nativeObservable;
 /*
- * 
+ * WeatherData class that implements Subject interface
  */
 
 import java.util.ArrayList;

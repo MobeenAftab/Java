@@ -1,3 +1,4 @@
+package nativeObservable;
 /*
  * Display implements Observer so it can get changes from the WeatherData object
  * Implements DisplayElement because our API is going to require all display elements to
