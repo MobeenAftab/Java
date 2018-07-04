@@ -24,7 +24,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	 * The display method just prints out the most recent temp and humidity
 	 */
 	public void display() {
-		System.out.println("Current conditionsL " + temperature + "F degrees and "
+		System.out.println("Current conditions: " + temperature + "F degrees and "
 				+ humidity + "% humidity");
 	}
 
