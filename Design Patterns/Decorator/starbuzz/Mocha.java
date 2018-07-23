@@ -1,3 +1,4 @@
+package starbuzz;
 /*
  * Mocha is a decorator.
  * Instantiate Mocha with a reference to beverage (1) using an instance variable reference to beverage 

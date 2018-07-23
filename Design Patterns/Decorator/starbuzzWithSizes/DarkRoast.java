@@ -1,12 +1,12 @@
+package starbuzzWithSizes;
 
 public class DarkRoast extends Beverage {
-	
 	public DarkRoast() {
-		description = "House Blend Coffee";
+		description = "Dark Roast Coffee";
 	}
-	
+ 
 	public double cost() {
 		return .99;
 	}
-
 }
+

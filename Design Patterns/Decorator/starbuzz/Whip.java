@@ -1,3 +1,4 @@
+package starbuzz;
 
 public class Whip extends CondimentsDecorator {
 
@@ -9,10 +10,10 @@ public class Whip extends CondimentsDecorator {
 	
 	// Append Condiment name to description of beverage
 	public String getDescription() {
-		return beverage.getDescription() + ", Mocha";
+		return beverage.getDescription() + ", Whip";
 	}
 	
 	public double cost() {
-		return beverage.cost() + .20;
+		return beverage.cost() + .10;
 	}
 }

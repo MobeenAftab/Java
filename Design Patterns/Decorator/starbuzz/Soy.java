@@ -1,3 +1,4 @@
+package starbuzz;
 
 public class Soy extends CondimentsDecorator {
 	
@@ -9,11 +10,11 @@ public class Soy extends CondimentsDecorator {
 	
 	// Append Condiment name to description of beverage
 	public String getDescription() {
-		return beverage.getDescription() + ", Mocha";
+		return beverage.getDescription() + ", Soy";
 	}
 	
 	public double cost() {
-		return beverage.cost() + .20;
+		return beverage.cost() + .15;
 	}
 
 }

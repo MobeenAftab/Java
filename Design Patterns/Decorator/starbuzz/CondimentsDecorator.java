@@ -1,3 +1,4 @@
+package starbuzz;
 
 public abstract class CondimentsDecorator extends Beverage {
 	
